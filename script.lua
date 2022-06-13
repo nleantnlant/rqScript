@@ -1,15 +1,15 @@
 print("Executing Rumble Quest AI... (discord.gg/wQ7pnWm6nx)")
 
-print("Game check: " .. game.PlaceId == 4390380541)
+print("Game check: " .. tostring(game.PlaceId == 4390380541))
 if game.PlaceId == 4390380541 then
 local run = true
 
 repeat task.wait() until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game:GetService("ReplicatedStorage"):FindFirstChild("GameType")
 
 
-warn("Developer Mode: " .. getgenv().config.DeveloporMode)
-warn("Auto Best Location: " .. getgenv().config.JoinBestLocation)
-warn("Auto Sell: " .. getgenv().config.AutoSell)
+warn("Developer Mode: " .. tostring(getgenv().config.DeveloporMode))
+warn("Auto Best Location: " .. tostring(getgenv().config.JoinBestLocation))
+warn("Auto Sell: " .. tostring(getgenv().config.AutoSell))
 -----------------------------------
 -- Lobby Scripts --
 
