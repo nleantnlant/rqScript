@@ -9,7 +9,7 @@ repeat task.wait() until game.Players.LocalPlayer and game.Players.LocalPlayer.C
 
 warn("Developer Mode: " .. getgenv().config.DeveloporMode)
 warn("Auto Best Location: " .. getgenv().config.JoinBestLocation)
-warn("Auto Sell: " .. getgenv().config.AutoSell
+warn("Auto Sell: " .. getgenv().config.AutoSell)
 -----------------------------------
 -- Lobby Scripts --
 
