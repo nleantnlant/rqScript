@@ -7,7 +7,7 @@ local run = true
 repeat task.wait() until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game:GetService("ReplicatedStorage"):FindFirstChild("GameType")
 
 
-warn("Developer Mode: " .. tostring(getgenv().config.DeveloporMode))
+warn("Developer Mode: " .. tostring(getgenv().config.DeveloperMode))
 warn("Auto Best Location: " .. tostring(getgenv().config.JoinBestLocation))
 warn("Auto Sell: " .. tostring(getgenv().config.AutoSell))
 -----------------------------------
